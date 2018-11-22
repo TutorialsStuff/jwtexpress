@@ -1,0 +1,6 @@
+# without valid cookie
+GET http://localhost:3007/users
+
+# with valid cookie
+GET http://localhost:3007/users
+Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hcmluQHNhZ292YWMuY29tIiwiaWF0IjoxNTQyODgxMjg3fQ.1sUGZsZfMWf_3NETr4CQQ0ak30VCK6FO1YjhKWX-Yn4; Max-Age=3; Path=/; Expires=Thu, 22 Nov 2018 10:08:11 GMT; HttpOnly
